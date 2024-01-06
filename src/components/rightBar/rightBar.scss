@@ -1,0 +1,78 @@
+.rightBar{
+    flex:3;
+    position:  sticky;
+    top: 52.9px;
+    height: calc(100vh - 52.9px);
+    overflow: scroll;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+    .container{
+        padding: 20px;
+        .item{
+            box-shadow: 11px 8px 33px -10px rgba(0,0,0,0.76);
+            -webkit-box-shadow: 11px 8px 33px -10px rgba(0,0,0,0.76);
+            -moz-box-shadow: 11px 8px 33px -10px rgba(0,0,0,0.76);
+            padding: 20px;
+            margin: 20px 0px;
+
+            span{
+                color: gray;
+            }
+            .user{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: 15px 0px;
+                padding: 8px;
+                .userInfo{
+                    display: flex;
+                align-items: center;
+                gap: 20px;
+                position: relative;
+
+                    
+
+                    img{
+                        height: 40px;
+                        width: 40px;
+                        border-radius: 50%;
+                        object-fit: cover;
+
+                    }
+                    .online{
+                        width: 12px;
+                        height: 12px;
+                        border-radius: 50%;
+                        background-color: limegreen;
+                        position:  absolute;
+                        top: 0px;
+                        left: 30px;
+                    }
+                    span{
+                        font-weight: 500;
+                        color: black;
+                    }
+                }
+                .buttons{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    gap: 10px;
+                    button{
+                        border: none;
+                        padding: 10px;
+                        color: white;cursor: pointer;
+                        &:first-child{
+                            background-color: blue;
+                        }
+                        &:last-child{
+                            background-color: red;
+                        }
+                    }
+                }
+              
+            }
+        }
+    }
+}

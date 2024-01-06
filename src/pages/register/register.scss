@@ -1,0 +1,71 @@
+.register{
+    margin-top: 197px;
+    margin-left: 438px;
+     padding-left: 20px;
+    .box{
+        border: 2px solid black;
+        height: 420px;
+        width: 800px;
+        background:linear-gradient(rgb(38, 23, 248),rgb(1, 16, 148)
+        );
+        display: flex;
+        flex-direction: row;
+        .left{
+            border: none;
+            width: 200px;
+            height: 400px;
+            background:linear-gradient(rgb(38, 23, 248),rgb(1, 16, 148)
+            );  
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+            align-items: center;
+            h1{
+                
+                color: white;
+                padding:  10px;
+            }
+            button{
+                border:none;
+                // width: 50%;
+                margin-left: 10px;
+                padding: 5px;
+                background-color: white;
+                border-radius: 5px;
+            }
+        }
+        .right{
+            margin-top: 14px;
+            width:572px;
+            height:379px;
+            background-color: white;
+            padding: 5px;
+            gap: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            // justify-content: center;
+            h1{
+               text-align: center;
+            }
+            input{
+              margin: 5px;
+              border:1px solid black;
+              border-radius: 5px;
+              width: 50%;
+              padding: 5px;
+
+            }
+            button{
+                color: white;
+                 margin: 5px;
+                 width: 50%;
+                 border:none;
+                 border-radius: 5px;
+                 padding: 5px;
+                 background-color:  rgb(1, 16, 148) ;
+                  
+            }
+        }
+    }
+}
